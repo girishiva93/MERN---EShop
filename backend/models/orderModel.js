@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+// backend ko lagi filed banako yesma
+
 const orderSchema = mongoose.Schema(
   {
     user: {
@@ -73,6 +75,6 @@ const orderSchema = mongoose.Schema(
   }
 );
 
-const Order = mongoose.Model("Order", orderSchema);
+const Order = mongoose.model("Order", orderSchema);
 
 export default Order;

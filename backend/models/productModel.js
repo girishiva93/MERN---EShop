@@ -1,9 +1,14 @@
 import mongoose from "mongoose";
+
+// backend ko lagi filed banako yesma
+
 const reviewSchema = mongoose.Schema({
   name: { type: String, required: true },
   rating: { type: Number, required: true },
   comment: { type: String, required: true },
 });
+
+
 const productSchema = mongoose.Schema(
   {
     user: {

@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+// backend ko lagi filed banako yesma
+
 const userSchema = mongoose.Schema(
   {
     name: {

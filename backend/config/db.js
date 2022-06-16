@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 import colors from "colors";
 
+// yo function le env ko file lai extract garera connect gare rakheko xa backend sanga
+
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(process.env.MONGO_URI);
